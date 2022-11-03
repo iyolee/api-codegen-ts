@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "es2015", "dom"],
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "types": ["jest", "node"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types", "./types"]
+  },
+  "exclude": ["node_modules", "test", "jest", "bin", "lib", "generator", "service/**"]
+}

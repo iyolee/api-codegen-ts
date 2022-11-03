@@ -1,0 +1,1 @@
+{"version":3,"file":"isEmptyDir.js","sourceRoot":"","sources":["../../src/utils/isEmptyDir.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;AAAA,qCAAyB;AAEzB,SAAgB,UAAU,CAAC,KAAa;IACtC,IAAI,EAAE,GAAG,EAAE,CAAC,WAAW,CAAC,KAAK,CAAC,CAAC;IAC/B,IAAI,EAAE,CAAC,MAAM,KAAK,CAAC,EAAE;QACnB,OAAO,IAAI,CAAC;KACb;SAAM;QACL,OAAO,KAAK,CAAC;KACd;AACH,CAAC;AAPD,gCAOC"}

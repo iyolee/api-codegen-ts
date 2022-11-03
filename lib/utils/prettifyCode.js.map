@@ -1,0 +1,1 @@
+{"version":3,"file":"prettifyCode.js","sourceRoot":"","sources":["../../src/utils/prettifyCode.ts"],"names":[],"mappings":";;;;;;AAAA,sDAAgC;AAEzB,IAAM,YAAY,GAAG,UAAC,IAAY;IACvC,OAAA,kBAAQ,CAAC,MAAM,CAAC,IAAI,EAAE;QACpB,UAAU,EAAE,GAAG;QACf,aAAa,EAAE,KAAK;QACpB,WAAW,EAAE,QAAQ;QACrB,MAAM,EAAE,YAAY;KACrB,CAAC;AALF,CAKE,CAAC;AANQ,QAAA,YAAY,gBAMpB"}
