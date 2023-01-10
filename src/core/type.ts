@@ -47,7 +47,14 @@ export class Enum implements TypeFactory {
   toType(): string {
     if (this.value) {
       if (this.kind === DeclKinds.type) {
-        return `${this.value.map((v) => `"${v}"`).join('|')}`;
+        return `${this.value
+          .map((v) => {
+            if (typeof v === 'number') {
+              return v;
+            }
+            return `"${v}"`;
+          })
+          .join('|')}`;
       }
       return `{${this.value.map((v) => `'${v}' = '${v}',`).join('\n')}}`;
     }
